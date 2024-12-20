@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Francisco Dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+    <script src="idiomas.js" type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegacion">
+        <ul class="nav-list">
+          <li>
+            <button class="theme-toggle" id="theme-toggle">
+              <span class="theme-toggle-text">
+                <img
+                  src="/images/svg/dia.svg"
+                  alt="Imagen de tema"
+                  id="theme-icon"
+                  class="theme-icon-img"
+                />
+              </span>
+              <i class="theme-icon"></i>
+            </button>
+          </li>
+          <li>
+            <select class="language-select" id="language-select">
+              <option value="selecione">Selecione </option>
+              <option value="español">🇪🇸 Español</option>
+              <option value="ingles">🇺🇸 Inglés</option>
+            </select>
+          </li>
+          <li>
+            <a href="CV_Francisco_López (1).pdf" download class="cv-button"
+              >MI CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="sobre_mi">
+        <div class="profile-container">
+          <img
+            src="/images/imagen_portafolio.jpg"
+            alt="Francisco López"
+            class="profile-image"
+          />
+          <div class="profile-info">
+            <h1 class="glitch-text">
+              Desarrollador Full Stack || Francisco López || Quito-Ecuador
+            </h1>
+            <p class="typing-text">
+              Hola! bienvenid@ soy un apasionado por la tecnología tengo 20 años, estudio en la Universidad Politecnica Salesiana la carrera de Ingenieria en Ciencias de la Computación actualmente en 6 semestre. 
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/francixcode2004"
+                target="_blank"
+                class="social-link github"
+                ><img src="/images/svg/github.svg" alt="Imagen de github"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/francisco-lopez-61a007304/"
+                target="_blank"
+                class="social-link linkedin"
+                ><img src="/images/svg/linkedin.svg" alt="Imagen de linkedin"
+              /></a>
+              <a
+                href="mailto:franciscorcardo293@gmail.com"
+                target="_blank"
+                class="social-link email"
+              >
+                <img
+                  src="/images/svg/correo.svg"
+                  alt="Imagen de correo electrónico"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/francixx_985/#"
+                target="_blank"
+                class="social-link instagram"
+                ><img src="/images/svg/instagram.svg" alt="Imagen de instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="technologies" id="tecnologias">
+        <h2>Lenguajes</h2>
+        <div class="tech-grid">
+          <div class="tech-item" data-tech="Python">
+            <img src="/images/svg/python.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="Java">
+            <img src="/images/svg/java.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="JavaScript">
+            <img src="/images/svg/javascript.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="C#">
+            <img src="/images/svg/c--4.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experiencia">
+        <h2>Experiencia</h2>
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>JUN 2024 - NOV 2024</h3>
+              <h4>Desarrollador de Software - Fisa:group</h4>
+              <p>
+                Como parte de mis pasantías, fui seleccionado como Talent Seed, lo que me permitió aprender sobre lo que es la TESORERÍA BANCARIA.
+                Las tecnologias que utilice son <strong style="color: black;">C#, Python, React, SQL Server.</strong>
+                Mis principales funciones eran implementar sistemas dentro del ámbito de la tesorería bancaria, buscando soluciones innovadoras para mejorar los procesos.
+
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>FEB 2024 - MAR 2024</h3>
+              <h4>Ayudante de catedra - FENEDIF</h4>
+              <p>
+                En FENDIF me dediqué a dar cursos de computación para personas con discapacidad. Utilicé herramientas de ofimática como Word, Excel y PowerPoint. Además, ayudé a mi tutor en diversas tareas relacionadas con la enseñanza y el apoyo a los estudiantes.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>ENE 2021 - DIC 2021</h3>
+              <h4>Atención al cliente - Cabinas de Andinatel</h4>
+              <p>
+                Me encargué de gestionar las consultas y solicitudes de los clientes, siempre con un enfoque en la resolución rápida y eficaz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div
+              class="project-image"
+              style="
+                background-image: url('/images/qqi_project.webp');
+              "
+            ></div>
+            <div class="project-content">
+              <h3>Quien Quiere Ser Ingeniero</h3>
+              <p>
+                En este proyecto como parte del grupo asus de la universidad politecnica salesiana desarrollamos un juego tipo quiz. 
+                Tecnologias utilizadas: <strong style="color: black;"> PYTHON, REACT, SQL SERVER ,WEBSOCKETS</strong>
+              </p>
+              <a href="https://github.com/GaosUps/Quien_Quiere_Ser_Ingeniero" class="project-link">Ver más</a>
+            </div>
+          </article>
+          <article class="project-card"">
+            <div
+              class="project-image"
+              style="
+                background-image: url('/images/QQI_config.jpg');
+              "
+            ></div>
+            <div class="project-content">
+              <h3>Quien Quiere Ser Ingeniero Config</h3>
+              <p>
+                Es un proyecto aparte que nos ayuda con una pantalla web poder hacer la configuracion de QQI la cual nos ofrece una pantalla intuitiva ademas la posibilidad de cargar las preguntas y seleccionar dificultad y categoria.
+                Tecnologias Utilizadas:<strong style="color: black;"> PYTHON, REACT, SQL SERVER ,API REST</strong>
+              </p>
+              <a href="https://github.com/GaosUps/Quien_Quiere_Ser_Ingeniero_Config" class="project-link">Ver más</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div
+              class="project-image"
+              style="
+                background-image: url('/images/bachemonitor.jpg');
+              "
+            ></div>
+            <div class="project-content">
+              <h3>Monitor de Baches</h3>
+              <p>
+               Un proyecto en grupo dedicado a detectar baches en tiempo real utilizando lo que es un microcontrolador .
+               Tecnologias Utilizadas: <strong style="color: black;"> ARDUINO, ANGULAR, TYPESCRIPT, NODE JS , FIREBASE </strong> 
+              </p>
+              <a href="https://github.com/Nubisan/BacheMonitor" class="project-link">Ver más</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

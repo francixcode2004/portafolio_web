@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Francisco Dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navegacion">
+        <ul class="nav-list">
+          <li>
+            <button class="theme-toggle" id="theme-toggle">
+              <span class="theme-toggle-text">
+                <img
+                  src="/images/svg/dia.svg"
+                  alt="Theme image"
+                  id="theme-icon"
+                  class="theme-icon-img"
+                />
+              </span>
+              <i class="theme-icon"></i>
+            </button>
+          </li>
+          <li>
+            <select class="language-select" id="language-select">
+              <option value="selecione">Selecione </option>
+              <option value="español">🇪🇸 Español</option>
+              <option value="ingles">🇺🇸 Inglés</option>
+            </select>
+          </li>
+          <li>
+            <a href="CV_Francisco_Ricardo_López_Espinoza-1.pdf" download class="cv-button"
+              >MY CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="sobre_mi">
+        <div class="profile-container">
+          <img
+            src="/images/imagen_portafolio.jpg"
+            alt="Francisco López"
+            class="profile-image"
+          />
+          <div class="profile-info">
+            <h1 class="glitch-text">
+              Full Stack Developer || Francisco López || Quito-Ecuador
+            </h1>
+            <p class="typing-text">
+              Hello! Welcome, I'm passionate about technology, I'm 20 years old, studying Computer Science Engineering at the Salesian Polytechnic University, currently in my 6th semester. 
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/francixcode2004"
+                target="_blank"
+                class="social-link github"
+                ><img src="/images/svg/github.svg" alt="GitHub image"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/francisco-lopez-61a007304/"
+                target="_blank"
+                class="social-link linkedin"
+                ><img src="/images/svg/linkedin.svg" alt="LinkedIn image"
+              /></a>
+              <a
+                href="mailto:franciscorcardo293@gmail.com"
+                target="_blank"
+                class="social-link email"
+              >
+                <img
+                  src="/images/svg/correo.svg"
+                  alt="Email image"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/francixx_985/#"
+                target="_blank"
+                class="social-link instagram"
+                ><img src="/images/svg/instagram.svg" alt="Instagram image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="technologies" id="tecnologias">
+        <h2>Languages</h2>
+        <div class="tech-grid">
+          <div class="tech-item" data-tech="Python">
+            <img src="/images/svg/python.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="Java">
+            <img src="/images/svg/java.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="JavaScript">
+            <img src="/images/svg/javascript.svg" alt="" />
+          </div>
+          <div class="tech-item" data-tech="C#">
+            <img src="/images/svg/c--4.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experiencia">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>JUN 2024 - NOV 2024</h3>
+              <h4>Software Developer - Fisa:group</h4>
+              <p>
+                As part of my internship, I was selected as Talent Seed, which allowed me to learn about BANKING TREASURY.
+                The technologies I used were <strong style="color: black;">C#, Python, React, SQL Server.</strong>
+                My main tasks were to implement systems within the banking treasury field, seeking innovative solutions to improve processes.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="content">
+              <h3>FEB 2024 - MAR 2024</h3>
+              <h4>Teaching Assistant - FENEDIF</h4>
+              <p>
+                At FENDIF, I taught computing courses for people with disabilities. I used office tools such as Word, Excel, and PowerPoint. Additionally, I assisted my tutor with various teaching tasks and supporting students.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left">
+            <div class="content">
+              <h3>ENE 2021 - DIC 2021</h3>
+              <h4>Customer Service - Cabinas de Andinatel</h4>
+              <p>
+                I was in charge of managing customer inquiries and requests, always with a focus on quick and effective resolution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="proyectos">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div
+              class="project-image"
+              style="background-image: url('/images/qqi_project.webp');"
+            ></div>
+            <div class="project-content">
+              <h3>Who Wants to Be an Engineer</h3>
+              <p>
+                In this project, as part of the ASUS group at the Salesian Polytechnic University, we developed a quiz-type game.
+                Technologies used: <strong style="color: black;"> PYTHON, REACT, SQL SERVER ,WEBSOCKETS</strong>
+              </p>
+              <a href="https://github.com/GaosUps/Quien_Quiere_Ser_Ingeniero" class="project-link">See more</a>
+            </div>
+          </article>
+          <article class="project-card"">
+            <div
+              class="project-image"
+              style="background-image: url('/images/QQI_config.jpg');"
+            ></div>
+            <div class="project-content">
+              <h3>Who Wants to Be an Engineer Config</h3>
+              <p>
+                It is a separate project that helps us with a web screen to configure QQI, offering an intuitive interface as well as the possibility to upload questions and select difficulty and category.
+                Technologies Used: <strong style="color: black;"> PYTHON, REACT, SQL SERVER ,API REST</strong>
+              </p>
+              <a href="https://github.com/GaosUps/Quien_Quiere_Ser_Ingeniero_Config" class="project-link">See more</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div
+              class="project-image"
+              style="background-image: url('/images/bachemonitor.jpg');"
+            ></div>
+            <div class="project-content">
+              <h3>Pothole Monitor</h3>
+              <p>
+                A group project dedicated to detecting potholes in real-time using a microcontroller.
+                Technologies Used: <strong style="color: black;"> ARDUINO, ANGULAR, TYPESCRIPT, NODE JS , FIREBASE</strong>
+              </p>
+              <a href="https://github.com/Nubisan/BacheMonitor" class="project-link">See more</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
